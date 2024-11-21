@@ -34,9 +34,9 @@ export const Service = React.forwardRef((props, ref) => {
       <div className="mx-[15rem] mt-[10rem]">
         <div>
 
-          <div className="w-[20rem] space-y-4 ml-5">
+          <div className="w-[25rem] space-y-10 ml-5 mb-20">
             <h1 className="text-5xl font-bold">Service</h1>
-            <p className="text-[#B16B23] text-xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eos assumenda iste at, sequi perspiciatis numquam at</p>
+            <p className="text-[#B16B23]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eos assumenda iste at</p>
           </div>
           <div className="w-full">
             <Carousel items={carouselItems} />
